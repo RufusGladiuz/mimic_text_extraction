@@ -1,0 +1,4 @@
+FROM ubuntu:20.10
+RUN git clone 
+COPY TBASE_Demo.bak /var/opt/mssql/backup
+
